@@ -24,7 +24,7 @@ const roboto = Roboto({
 
 const Header = () => {
   return (
-    <header>
+    <header className={styles.header}>
       <div className={`${inter.className} ${styles.top}`}>
         <div className={styles.container}>
           <ul>

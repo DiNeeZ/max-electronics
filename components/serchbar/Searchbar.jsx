@@ -13,7 +13,7 @@ const Searchbar = () => {
       <div className={styles.control}>
         <input type='text' placeholder='Search for products' />
         <select name='select'>
-          <option value='value1' selected>
+          <option value='value1' defaultValue>
             All Categories
           </option>
           <option value='value2'>Phones</option>

@@ -1,0 +1,26 @@
+@use '@/styles/mixins';
+
+.hero {
+  position: relative;
+  margin-top: -33px;
+  background-image: url('../../public/hero-bg.jpg');
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+}
+
+.container {
+  @include mixins.container;
+  padding-top: 63px;
+}
+
+.content {
+  display: flex;
+  align-items: stretch;
+  gap: 20px;
+  padding: 30px 32px;
+  border-radius: 4px;
+
+  // delete next
+  height: 540px;
+  background-color: #fff;
+}

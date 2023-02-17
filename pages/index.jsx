@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { Jost } from '@next/font/google';
 import Header from '@/wrappers/header/Header';
+import Hero from '@/wrappers/hero/hero';
 import styles from '@/styles/home.module.scss';
 
 const jost = Jost({
@@ -16,8 +17,9 @@ export default function Home() {
         <meta name='description' content='Main page of E-commerce' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
       </Head>
+      <Header />
       <main className={jost.className}>
-        <Header />
+        <Hero />
       </main>
     </>
   );

@@ -2,6 +2,7 @@
   "name": "max-electronics",
   "version": "0.1.0",
   "private": true,
+  "license": "Kyky",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
