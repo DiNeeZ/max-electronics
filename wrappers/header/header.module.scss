@@ -27,6 +27,13 @@
       padding-left: 25px;
       color: #959595;
     }
+
+    a {
+      transition: color 0.15s ease-in-out;
+      &:hover {
+        color: rgba(#333e48, 0.5);
+      }
+    }
   }
 
   .icon {
@@ -52,5 +59,107 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+}
+
+.bottom {
+  color: #000000;
+
+  .container {
+    @include mixins.container;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fed700;
+    border-radius: 4px;
+  }
+}
+
+.bottomLeft {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.iconWrapper {
+  height: 100%;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 15px;
+  border-right: 1px solid #d9b800;
+}
+
+.title {
+  margin: 0 0 5px 0;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  text-decoration-line: underline;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.list {
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  li {
+    width: 42px;
+    height: 42px;
+
+    & > * {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(#333e48, 0.075);
+      border-radius: 50%;
+      outline: none;
+      transition: all 0.15s ease-in-out;
+
+      &:hover,
+      &:focus,
+      &:active {
+        background-color: rgba(#333e48, 0.15);
+        box-shadow: 0px 1px 4px rgba(#000000, 0.5);
+      }
+    }
+  }
+
+  button {
+    display: flex;
+
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.cart {
+  position: relative;
+
+  .badge {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    line-height: 12px;
+    color: #ffffff;
+    background-color: #f92950;
+    border-radius: 50%;
   }
 }

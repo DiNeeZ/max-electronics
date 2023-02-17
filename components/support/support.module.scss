@@ -1,0 +1,37 @@
+.support {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #333e48;
+}
+
+.iconContainer {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+
+  a {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+
+    span {
+      transition: color 0.15s ease-in-out;
+      &:hover {
+        color: rgba(#333e48, 0.5);
+      }
+    }
+  }
+}

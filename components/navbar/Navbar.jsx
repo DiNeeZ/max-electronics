@@ -4,7 +4,7 @@ import styles from './navbar.module.scss';
 
 const jost = Jost({
   subsets: ['latin'],
-  weight: ['500']
+  weight: ['400']
 });
 
 const Navbar = () => {

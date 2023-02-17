@@ -2,8 +2,15 @@
   display: flex;
   align-items: center;
   gap: 40px;
+  font-weight: 400;
   font-size: 16px;
-  font-weight: 500;
   line-height: 19px;
   color: #334141;
+
+  a {
+    transition: color 0.15s ease-in-out;
+    &:hover {
+      color: rgba(#333e48, 0.5);
+    }
+  }
 }

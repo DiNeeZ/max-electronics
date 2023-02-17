@@ -1,8 +1,14 @@
 import { TbTruckDelivery, TbCurrencyDollar, TbUser, TbMapPin } from 'react-icons/tb';
+import { IoMegaphoneOutline } from 'react-icons/io5';
+import { CiUser, CiHeart } from 'react-icons/ci';
+import { BsHandbag } from 'react-icons/bs';
 import Logo from '@/components/logo/Logo';
 import Navbar from '@/components/navbar/Navbar';
 import { Jost, Inter, Roboto } from '@next/font/google';
 import styles from './header.module.scss';
+import Support from '@/components/support/Support';
+import Searchbar from '@/components/serchbar/Searchbar';
+import Link from 'next/link';
 
 const jost = Jost({
   subsets: ['latin'],
@@ -49,10 +55,41 @@ const Header = () => {
         <div className={styles.container}>
           <Logo />
           <Navbar />
-          <div>Contacts</div>
+          <Support />
         </div>
       </div>
-      <div className='bottom'></div>
+      <div className={`${jost.className} ${styles.bottom}`}>
+        <div className={styles.container}>
+          <div className={styles.bottomLeft}>
+            <div className={styles.iconWrapper}>
+              <IoMegaphoneOutline className={styles.bottomIcon} size={25} />
+            </div>
+            <div className={styles.heading}>
+              <h1 className={styles.title}>Shop & Store - Electronics & Digital</h1>
+              <p className={styles.subtitle}>Responsive PrestaShop</p>
+            </div>
+          </div>
+          <Searchbar />
+          <ul className={styles.list}>
+            <li>
+              <Link href='/'>
+                <CiUser size={18} />
+              </Link>
+            </li>
+            <li>
+              <button>
+                <CiHeart size={18} />
+              </button>
+            </li>
+            <li>
+              <Link href='/' className={styles.cart}>
+                <BsHandbag size={18} />
+                <span className={`${styles.badge} ${jost.className}`}>2</span>
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
   );
 };

@@ -1,0 +1,58 @@
+.search {
+  margin: 8px 0;
+  display: flex;
+  align-items: stretch;
+  color: #6b6b6b;
+  border-radius: 25px;
+  overflow: hidden;
+  background-color: tomato;
+
+  .control {
+    width: 510px;
+    display: flex;
+    align-items: stretch;
+    padding: 16px 33px;
+    background-color: #fff;
+  }
+
+  input {
+    flex: 1 0 auto;
+    border: none;
+    outline: none;
+  }
+
+  select {
+    color: inherit;
+    padding-right: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    outline: none;
+    border: none;
+
+    &:focus {
+      color: #334141;
+    }
+  }
+
+  button {
+    width: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333e48;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.15s linear;
+
+    &:hover,
+    &:focus {
+      background-color: lighten(#333e48, 10);
+    }
+
+    svg {
+      fill: #fff;
+    }
+  }
+}
