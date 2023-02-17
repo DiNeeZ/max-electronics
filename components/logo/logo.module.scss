@@ -1,0 +1,23 @@
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-size: 42px;
+  line-height: 50px;
+  color: #141412;
+
+  span {
+    color: #fed700;
+    font-weight: 900;
+  }
+}
+
+.subtitle {
+  font-size: 10px;
+  line-height: 12px;
+  color: #787878;
+  text-transform: uppercase;
+  text-align: end;
+}
