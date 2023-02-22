@@ -1,0 +1,27 @@
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 15px;
+  line-height: 37px;
+  font-weight: 500;
+  color: #333e48;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  transition: color 0.15s ease-in-out;
+
+  .chevron {
+    transition: transform 0.15s ease-in-out;
+  }
+
+  &:hover {
+    color: rgba(#333e48, 0.5);
+
+    .chevron {
+      transform: translateX(10px);
+    }
+  }
+}

@@ -1,5 +1,13 @@
 .sidebar {
-  width: 100%;
+  flex: 1 0 auto;
+  width: 260px;
+
+  a {
+    transition: color 0.15s ease-in-out;
+    &:hover {
+      color: rgba(#333e48, 0.5);
+    }
+  }
 }
 
 .header {
@@ -24,20 +32,11 @@
 
 .list {
   li {
+    position: relative;
     padding-left: 20px;
 
     &:not(:last-child) {
       border-bottom: 1px solid rgba(#333e48, 0.3);
     }
   }
-}
-
-.link {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 15px;
-  line-height: 37px;
-  font-weight: 500;
-  color: #333e48;
 }

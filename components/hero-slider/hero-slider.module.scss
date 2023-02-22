@@ -1,0 +1,33 @@
+.heroSlider {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  background-color: #ececec;
+  border-radius: 4px;
+}
+
+.pagination {
+  width: auto;
+  position: absolute;
+  width: auto !important;
+  bottom: 35px !important;
+  right: 60px !important;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 9px;
+}
+
+.bullet {
+  width: 30px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: rgba(#333e48, 0.2);
+  opacity: 1;
+  cursor: pointer;
+}
+
+.active {
+  background-color: teal;
+}
