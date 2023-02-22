@@ -1,8 +1,7 @@
 import Head from 'next/head';
 import { Jost } from '@next/font/google';
 import Header from '@/wrappers/header/Header';
-import Hero from '@/wrappers/hero/hero';
-import styles from '@/styles/home.module.scss';
+import Hero from '@/wrappers/hero/Hero';
 
 const jost = Jost({
   subsets: ['latin'],
