@@ -288,3 +288,26 @@ export const heroSlider = [
     bgUrl: '/images/slider-3.jpg'
   }
 ];
+
+export const services = [
+  {
+    icon: '',
+    title: 'Free Delivery',
+    subtitle: 'Free shipping on all order'
+  },
+  {
+    icon: '',
+    title: 'Online Support 24/7',
+    subtitle: 'Support online 24 hours a day'
+  },
+  {
+    icon: '',
+    title: 'Money Return',
+    subtitle: 'Back guarantee under 7 days'
+  },
+  {
+    icon: '',
+    title: 'Member Discount',
+    subtitle: 'Onevery order over $120.00'
+  }
+];

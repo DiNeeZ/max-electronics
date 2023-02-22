@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { Jost } from '@next/font/google';
 import Header from '@/wrappers/header/Header';
 import Hero from '@/wrappers/hero/Hero';
+import Services from '@/components/services-section/Services';
 
 const jost = Jost({
   subsets: ['latin'],
@@ -19,6 +20,7 @@ export default function Home() {
       <Header />
       <main className={jost.className}>
         <Hero />
+        <Services />
       </main>
     </>
   );
