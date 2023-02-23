@@ -11,6 +11,7 @@
 .container {
   @include mixins.container;
   padding-top: 63px;
+  margin-bottom: 65px;
 }
 
 .content {

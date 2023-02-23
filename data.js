@@ -1,3 +1,8 @@
+import { RiShipLine } from 'react-icons/ri';
+import { MdSupportAgent } from 'react-icons/md';
+import { ImCreditCard } from 'react-icons/im';
+import { HiOutlineReceiptPercent } from 'react-icons/hi2';
+
 export const menu = [
   {
     id: '1C1XQoWhrk',
@@ -291,23 +296,182 @@ export const heroSlider = [
 
 export const services = [
   {
-    icon: '',
+    icon: RiShipLine,
     title: 'Free Delivery',
     subtitle: 'Free shipping on all order'
   },
   {
-    icon: '',
+    icon: MdSupportAgent,
     title: 'Online Support 24/7',
     subtitle: 'Support online 24 hours a day'
   },
   {
-    icon: '',
+    icon: ImCreditCard,
     title: 'Money Return',
     subtitle: 'Back guarantee under 7 days'
   },
   {
-    icon: '',
+    icon: HiOutlineReceiptPercent,
     title: 'Member Discount',
     subtitle: 'Onevery order over $120.00'
+  }
+];
+
+export const products = [
+  {
+    id: '_-YBn',
+    title: 'SONY Cyber-shot DSC-RX100 Mark III',
+    price: 980,
+    discount: 15,
+    imgUrl: '/images/products/sony-cyber-shot-dsc-rx100-mark-3.webp',
+    rating: {
+      stars: 4,
+      votes: 276
+    },
+    meta: ['bestseller']
+  },
+  {
+    id: 'xn13e',
+    title: 'Apple iPhone 14 Pro Max 128GB Space Black',
+    price: 1500,
+    discount: false,
+    imgUrl: '/images/products/apple-iphone-14-pro-max-128gb-space-black.webp',
+    rating: {
+      stars: 5,
+      votes: 683
+    },
+    meta: ['bestseller']
+  },
+  {
+    id: 'X8EOR',
+    title: 'Sony WH-1000XM5 Black',
+    price: 980,
+    discount: 15,
+    imgUrl: '/images/products/sony-wh-1000xm5.webp',
+    rating: {
+      stars: 5,
+      votes: 65
+    },
+    meta: ['bestseller']
+  },
+  {
+    id: '4p8ki',
+    title: 'Apple Watch Series 8 GPS 41mm Midnight Aluminium Case with Midnight Sport Band',
+    price: 500,
+    discount: 5,
+    imgUrl: '/images/products/apple-watch-series-8-gps-41mm.webp',
+    rating: {
+      stars: 3,
+      votes: 184
+    },
+    meta: ['bestseller']
+  },
+  {
+    id: 'xGcUK',
+    title: 'Samsung Galaxy Watch 5 Pro 45mm Titanium',
+    price: 400,
+    discount: 20,
+    imgUrl: '/images/products/samsung-galaxy-watch-5-pro-titanium.webp',
+    rating: {
+      stars: 4,
+      votes: 231
+    },
+    meta: ['for home']
+  },
+  {
+    id: 'vX9FV',
+    title: 'Microsoft Xbox Elite Wireless Controller Series 2',
+    price: 180,
+    discount: false,
+    imgUrl: '/images/products/microsoft-xbox-elite-wireless-controller-series-2.webp',
+    rating: {
+      stars: 5,
+      votes: 18
+    },
+    meta: ['for home']
+  },
+  {
+    id: 'rLJZM',
+    title: 'Baseus Blade 100W 20000mAh',
+    price: 115,
+    discount: false,
+    imgUrl: '/images/products/baseus-blade-100w-20000mah.webp',
+    rating: {
+      stars: 3,
+      votes: 599
+    },
+    meta: ['for home']
+  },
+  {
+    id: '6O4sj',
+    title: 'Royalty Line RL-2100 7.5L Red',
+    price: 117,
+    discount: 8,
+    imgUrl: '/images/products/royalty-line-rl-2100.webp',
+    rating: {
+      stars: 5,
+      votes: 90
+    },
+    meta: ['for home']
+  },
+  {
+    id: 'glxYa',
+    title: 'RZTK SONIC PRO Black',
+    price: 25,
+    discount: 3,
+    imgUrl: '/images/products/rztk-sonic-pro-black.webp',
+    rating: {
+      stars: 5,
+      votes: 24
+    },
+    meta: ['for home']
+  },
+  {
+    id: '7A3_K',
+    title: 'Xiaomi Watch S1 Active Moon White',
+    price: 162,
+    discount: false,
+    imgUrl: '/images/products/xiaomi-watch-s1-active.webp',
+    rating: {
+      stars: 5,
+      votes: 118
+    },
+    meta: ['for home']
+  },
+  {
+    id: 'BUODu',
+    title: '8Bitdo Sn30 Pro+ Bluetooth Gamepad',
+    price: 46,
+    discount: false,
+    imgUrl: '/images/products/8bitdo-sn30-pro-bluetooth.webp',
+    rating: {
+      stars: 3,
+      votes: 55
+    },
+    meta: ['for home']
+  },
+  {
+    id: 'APEjh',
+    title: 'Acer 12in1 Type C dongle',
+    price: 95,
+    discount: 30,
+    imgUrl: '/images/products/acer-12in1-type-c-dongle.webp',
+    rating: {
+      stars: 5,
+      votes: 76
+    },
+    meta: ['for home']
+  },
+  {
+    id: 'QHBNi',
+    title: 'Apple iPad Air 10.9" M1 Wi-Fi 64GB Space Gray',
+    price: 750,
+    discount: false,
+    imgUrl: '/images/products/apple-ipad-air-10-m1.webp',
+    rating: {
+      stars: 5,
+      votes: 200
+    },
+    meta: ['for home']
   }
 ];
