@@ -1,5 +1,14 @@
 @import '../../styles/mixins';
 
+.bestsellers {
+  margin-bottom: 85px;
+}
+
 .container {
   @include container;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
 }

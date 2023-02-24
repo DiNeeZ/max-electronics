@@ -323,7 +323,7 @@ export const products = [
     title: 'SONY Cyber-shot DSC-RX100 Mark III',
     price: 980,
     discount: 15,
-    imgUrl: '/images/products/sony-cyber-shot-dsc-rx100-mark-3.webp',
+    imgUrl: '/images/products/sony-cyber-shot-dsc-rx100-mark-3.jpg',
     rating: {
       stars: 4,
       votes: 276
@@ -335,7 +335,7 @@ export const products = [
     title: 'Apple iPhone 14 Pro Max 128GB Space Black',
     price: 1500,
     discount: false,
-    imgUrl: '/images/products/apple-iphone-14-pro-max-128gb-space-black.webp',
+    imgUrl: '/images/products/apple-iphone-14-pro-max-128gb-space-black.jpg',
     rating: {
       stars: 5,
       votes: 683
@@ -347,7 +347,7 @@ export const products = [
     title: 'Sony WH-1000XM5 Black',
     price: 980,
     discount: 15,
-    imgUrl: '/images/products/sony-wh-1000xm5.webp',
+    imgUrl: '/images/products/sony-wh-1000xm5.jpg',
     rating: {
       stars: 5,
       votes: 65
@@ -356,10 +356,10 @@ export const products = [
   },
   {
     id: '4p8ki',
-    title: 'Apple Watch Series 8 GPS 41mm Midnight Aluminium Case with Midnight Sport Band',
+    title: 'Apple Watch Series 8 GPS 41mm Sport Band',
     price: 500,
     discount: 5,
-    imgUrl: '/images/products/apple-watch-series-8-gps-41mm.webp',
+    imgUrl: '/images/products/apple-watch-series-8-gps-41mm.jpg',
     rating: {
       stars: 3,
       votes: 184
@@ -371,19 +371,19 @@ export const products = [
     title: 'Samsung Galaxy Watch 5 Pro 45mm Titanium',
     price: 400,
     discount: 20,
-    imgUrl: '/images/products/samsung-galaxy-watch-5-pro-titanium.webp',
+    imgUrl: '/images/products/samsung-galaxy-watch-5-pro-titanium.jpg',
     rating: {
       stars: 4,
       votes: 231
     },
-    meta: ['for home']
+    meta: ['for home', 'bestseller']
   },
   {
     id: 'vX9FV',
     title: 'Microsoft Xbox Elite Wireless Controller Series 2',
     price: 180,
     discount: false,
-    imgUrl: '/images/products/microsoft-xbox-elite-wireless-controller-series-2.webp',
+    imgUrl: '/images/products/microsoft-xbox-elite-wireless-controller-series-2.jpg',
     rating: {
       stars: 5,
       votes: 18
@@ -395,7 +395,7 @@ export const products = [
     title: 'Baseus Blade 100W 20000mAh',
     price: 115,
     discount: false,
-    imgUrl: '/images/products/baseus-blade-100w-20000mah.webp',
+    imgUrl: '/images/products/baseus-blade-100w-20000mah.jpg',
     rating: {
       stars: 3,
       votes: 599
@@ -407,7 +407,7 @@ export const products = [
     title: 'Royalty Line RL-2100 7.5L Red',
     price: 117,
     discount: 8,
-    imgUrl: '/images/products/royalty-line-rl-2100.webp',
+    imgUrl: '/images/products/royalty-line-rl-2100.jpg',
     rating: {
       stars: 5,
       votes: 90
@@ -419,7 +419,7 @@ export const products = [
     title: 'RZTK SONIC PRO Black',
     price: 25,
     discount: 3,
-    imgUrl: '/images/products/rztk-sonic-pro-black.webp',
+    imgUrl: '/images/products/rztk-sonic-pro-black.jpg',
     rating: {
       stars: 5,
       votes: 24
@@ -431,7 +431,7 @@ export const products = [
     title: 'Xiaomi Watch S1 Active Moon White',
     price: 162,
     discount: false,
-    imgUrl: '/images/products/xiaomi-watch-s1-active.webp',
+    imgUrl: '/images/products/xiaomi-watch-s1-active.jpg',
     rating: {
       stars: 5,
       votes: 118
@@ -443,7 +443,7 @@ export const products = [
     title: '8Bitdo Sn30 Pro+ Bluetooth Gamepad',
     price: 46,
     discount: false,
-    imgUrl: '/images/products/8bitdo-sn30-pro-bluetooth.webp',
+    imgUrl: '/images/products/8bitdo-sn30-pro-bluetooth.jpg',
     rating: {
       stars: 3,
       votes: 55
@@ -455,7 +455,7 @@ export const products = [
     title: 'Acer 12in1 Type C dongle',
     price: 95,
     discount: 30,
-    imgUrl: '/images/products/acer-12in1-type-c-dongle.webp',
+    imgUrl: '/images/products/acer-12in1-type-c-dongle.jpg',
     rating: {
       stars: 5,
       votes: 76
@@ -467,7 +467,7 @@ export const products = [
     title: 'Apple iPad Air 10.9" M1 Wi-Fi 64GB Space Gray',
     price: 750,
     discount: false,
-    imgUrl: '/images/products/apple-ipad-air-10-m1.webp',
+    imgUrl: '/images/products/apple-ipad-air-10-m1.jpg',
     rating: {
       stars: 5,
       votes: 200
