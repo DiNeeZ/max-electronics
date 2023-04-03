@@ -1,3 +1,6 @@
 $content-width: 1270px;
 $container-offset: 15px;
+$content-fluid-width: 1860px;
+$container-fluid-offset: 30px;
 $container-width: calc($content-width + ($container-offset * 2));
+$container-fluid-width: calc($content-fluid-width + ($container-fluid-offset * 2));

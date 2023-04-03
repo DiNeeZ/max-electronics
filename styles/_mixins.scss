@@ -5,3 +5,9 @@
   padding: 0 $container-offset;
   max-width: $container-width;
 }
+
+@mixin container-fluid {
+  margin: 0 auto;
+  padding: 0 $container-fluid-offset;
+  max-width: $container-fluid-width;
+}

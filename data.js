@@ -475,3 +475,33 @@ export const products = [
     meta: ['for home']
   }
 ];
+
+export const multipleBanner = [
+  {
+    id: 'Sxm6i',
+    title: 'best game',
+    subtitle: 'devices',
+    price: 89.99,
+    url: '/',
+    backgroundColor: '#ffcc3a',
+    backgroundImage: '/images/banners/banner-1.png'
+  },
+  {
+    id: '0eoju',
+    title: 'newest',
+    subtitle: 'technic',
+    price: 34.99,
+    url: '/',
+    backgroundColor: '#155aa2',
+    backgroundImage: '/images/banners/banner-2.png'
+  },
+  {
+    id: 'sVk8y',
+    title: 'audio',
+    subtitle: 'systems',
+    price: 34.99,
+    url: '/',
+    backgroundColor: '#ee6aed',
+    backgroundImage: '/images/banners/banner-3.png'
+  }
+];

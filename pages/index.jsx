@@ -4,6 +4,7 @@ import Header from '@/wrappers/header/Header';
 import Hero from '@/wrappers/hero/Hero';
 import Services from '@/components/services-section/Services';
 import Bestsellers from '@/components/bestsellers/Bestsellers';
+import { MultipleBanner } from '@/components/banners';
 
 const jost = Jost({
   subsets: ['latin'],
@@ -23,6 +24,7 @@ export default function Home() {
         <Hero />
         <Services />
         <Bestsellers />
+        <MultipleBanner />
       </main>
     </>
   );
