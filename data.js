@@ -334,7 +334,7 @@ export const products = [
     id: 'xn13e',
     title: 'Apple iPhone 14 Pro Max 128GB Space Black',
     price: 1500,
-    discount: false,
+    discount: null,
     imgUrl: '/images/products/apple-iphone-14-pro-max-128gb-space-black.jpg',
     rating: {
       stars: 5,
@@ -382,7 +382,7 @@ export const products = [
     id: 'vX9FV',
     title: 'Microsoft Xbox Elite Wireless Controller Series 2',
     price: 180,
-    discount: false,
+    discount: null,
     imgUrl: '/images/products/microsoft-xbox-elite-wireless-controller-series-2.jpg',
     rating: {
       stars: 5,
@@ -394,7 +394,7 @@ export const products = [
     id: 'rLJZM',
     title: 'Baseus Blade 100W 20000mAh',
     price: 115,
-    discount: false,
+    discount: null,
     imgUrl: '/images/products/baseus-blade-100w-20000mah.jpg',
     rating: {
       stars: 3,
@@ -430,7 +430,7 @@ export const products = [
     id: '7A3_K',
     title: 'Xiaomi Watch S1 Active Moon White',
     price: 162,
-    discount: false,
+    discount: null,
     imgUrl: '/images/products/xiaomi-watch-s1-active.jpg',
     rating: {
       stars: 5,
@@ -442,7 +442,7 @@ export const products = [
     id: 'BUODu',
     title: '8Bitdo Sn30 Pro+ Bluetooth Gamepad',
     price: 46,
-    discount: false,
+    discount: null,
     imgUrl: '/images/products/8bitdo-sn30-pro-bluetooth.jpg',
     rating: {
       stars: 3,
@@ -466,7 +466,7 @@ export const products = [
     id: 'QHBNi',
     title: 'Apple iPad Air 10.9" M1 Wi-Fi 64GB Space Gray',
     price: 750,
-    discount: false,
+    discount: null,
     imgUrl: '/images/products/apple-ipad-air-10-m1.jpg',
     rating: {
       stars: 5,

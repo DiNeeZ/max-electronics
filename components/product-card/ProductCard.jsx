@@ -1,7 +1,13 @@
 import Image from 'next/image';
+
+import StarRating from '../star-rating/StarRating';
 import styles from './product-card.module.scss';
 
 const ProductCard = ({ product }) => {
+  const price = product.discount ? product.price * (1 + product.discount / 100) : product.price;
+  const changeLog = (value) => {
+    console.log(value);
+  };
   return (
     <article className={styles.product}>
       <Image
@@ -13,8 +19,11 @@ const ProductCard = ({ product }) => {
       />
       <div className={styles.content}>
         <h3 className={styles.title}>{product.title}</h3>
-        <p className={styles.price}>sadsadsadasdas</p>
-        <div className={styles.rating}></div>
+        <div className={styles.price}>
+          <p className={styles.current}>${price.toFixed(2)}</p>
+          {product.discount && <p className={styles.old}>{product.price.toFixed(2)}</p>}
+        </div>
+        <StarRating onHover={changeLog} rating={product.rating} />
       </div>
     </article>
   );
