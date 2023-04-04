@@ -505,3 +505,5 @@ export const multipleBanner = [
     backgroundImage: '/images/banners/banner-3.png'
   }
 ];
+
+export const sortSmartphones = ['Featured', 'On Sale', 'Top Rated'];

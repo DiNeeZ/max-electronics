@@ -1,0 +1,16 @@
+.sort {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.sortItem {
+  font-size: 17px;
+  line-height: 25px;
+  color: #333e48;
+  cursor: pointer;
+}
+
+.active {
+  font-weight: 700;
+}

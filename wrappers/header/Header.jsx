@@ -7,7 +7,7 @@ import Navbar from '@/components/navbar/Navbar';
 import { Jost, Inter, Roboto } from '@next/font/google';
 import styles from './header.module.scss';
 import Support from '@/components/support/Support';
-import Searchbar from '@/components/serchbar/Searchbar';
+import Searchbar from '@/components/searchbar/Searchbar';
 import Link from 'next/link';
 
 const jost = Jost({

@@ -1,0 +1,67 @@
+.baseBanner {
+  padding: 42px 48px;
+  background-color: #000;
+  background-image: url('/images/banners/base-banner.png');
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position-x: right;
+  border-radius: 4px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 113px;
+}
+
+.title {
+  max-width: 400px;
+  margin: 0;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 44px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.price {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 9px 18px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #333e48;
+  background-color: #fed700;
+  border-radius: 4px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -47px;
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: #fff;
+  }
+}
+
+.text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333e48;
+}
+
+.num {
+  font-weight: 700;
+  font-size: 30px;
+  color: #333e48;
+
+  .large {
+    font-size: 45px;
+  }
+}

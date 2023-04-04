@@ -1,9 +1,14 @@
-import { products } from '@/data';
+import { useEffect, useState } from 'react';
+import ProductCard from '../../components/product-card/ProductCard';
 import styles from './bestsellers.module.scss';
-import ProductCard from '../product-card/ProductCard';
 
-const Bestsellers = () => {
-  const bestsellers = products.filter((product) => product.meta.includes('bestseller'));
+const Bestsellers = ({ products }) => {
+  const [bestsellers, setBestsellers] = useState([]);
+
+  useEffect(() => {
+    const filteredProducts = products.filter((product) => product.meta.includes('bestseller'));
+    setBestsellers(filteredProducts);
+  }, [products]);
 
   return (
     <section className={styles.bestsellers}>

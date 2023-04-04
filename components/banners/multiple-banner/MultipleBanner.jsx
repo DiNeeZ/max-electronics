@@ -9,28 +9,25 @@ const rubik = Rubik({
   weight: ['400']
 });
 
-const BannerItem = ({ item }) => {
-  console.log(item.backgroundImage);
-  return (
-    <div
-      style={{
-        backgroundColor: item.backgroundColor,
-        backgroundImage: `url(${item.backgroundImage})`
-      }}
-      className={`${styles.item}`}>
-      <div className={styles.wrapper}>
-        <h3 className={styles.heading}>
-          <span className={styles.title}>{item.title}</span>
-          <span className={styles.subtitle}>{item.subtitle}</span>
-        </h3>
-        <p className={styles.price}>${item.price}</p>
-        <Link href={item.url} className={`${styles.button} ${rubik.className}`}>
-          Buy Now
-        </Link>
-      </div>
+const BannerItem = ({ item }) => (
+  <div
+    style={{
+      backgroundColor: item.backgroundColor,
+      backgroundImage: `url(${item.backgroundImage})`
+    }}
+    className={`${styles.item}`}>
+    <div className={styles.wrapper}>
+      <h3 className={styles.heading}>
+        <span className={styles.title}>{item.title}</span>
+        <span className={styles.subtitle}>{item.subtitle}</span>
+      </h3>
+      <p className={styles.price}>${item.price}</p>
+      <Link href={item.url} className={`${styles.button} ${rubik.className}`}>
+        Buy Now
+      </Link>
     </div>
-  );
-};
+  </div>
+);
 
 const MultipleBanner = () => {
   return (

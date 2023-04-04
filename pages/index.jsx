@@ -2,16 +2,18 @@ import Head from 'next/head';
 import { Jost } from '@next/font/google';
 import Header from '@/wrappers/header/Header';
 import Hero from '@/wrappers/hero/Hero';
-import Services from '@/components/services-section/Services';
-import Bestsellers from '@/components/bestsellers/Bestsellers';
+import Services from '@/sections/services-section/Services';
+import Bestsellers from '@/sections/bestsellers/Bestsellers';
 import { MultipleBanner } from '@/components/banners';
+import Smartphones from '@/sections/smartphones/Smartphones';
+import { products } from '@/data';
 
 const jost = Jost({
   subsets: ['latin'],
   weight: ['400', '500', '700']
 });
 
-export default function Home() {
+export default function Home({ products }) {
   return (
     <>
       <Head>
@@ -23,9 +25,16 @@ export default function Home() {
       <main className={jost.className}>
         <Hero />
         <Services />
-        <Bestsellers />
+        <Bestsellers products={products} />
         <MultipleBanner />
+        <Smartphones products={products} />
       </main>
     </>
   );
+}
+
+export function getStaticProps() {
+  return {
+    props: { products }
+  };
 }
