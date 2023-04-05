@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Jost } from '@next/font/google';
 import styles from './slide-item.module.scss';
+import Badge from '@/components/badge/Badge';
 
 const jost = Jost({
   subsets: ['latin'],
@@ -20,7 +21,7 @@ const SlideItem = ({ slide }) => {
         height={750}
       />
       <div className={styles.content}>
-        <span className={styles.badge}>Weekend Discount</span>
+        <Badge>Weekend Discount</Badge>
         <div className={styles.heading}>
           <h3>Feel - good Shopping</h3>
           <span>Shop what</span>

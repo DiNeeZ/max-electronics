@@ -19,7 +19,7 @@ const HeroSlider = () => {
         loop={true}
         pagination={{
           el: '.pagination',
-          renderBullet: function (index, className) {
+          renderBullet: function (_, className) {
             return ReactDOMServer.renderToStaticMarkup(<li className={className}></li>);
           },
           bulletClass: styles.bullet,

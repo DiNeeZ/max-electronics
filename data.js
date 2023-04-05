@@ -507,3 +507,10 @@ export const multipleBanner = [
 ];
 
 export const sortSmartphones = ['Featured', 'On Sale', 'Top Rated'];
+
+export const wheel = [
+  '/images/wheel/1.png',
+  '/images/wheel/2.png',
+  '/images/wheel/3.png',
+  '/images/wheel/4.png'
+];

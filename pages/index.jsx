@@ -7,6 +7,7 @@ import Bestsellers from '@/sections/bestsellers/Bestsellers';
 import { MultipleBanner } from '@/components/banners';
 import Smartphones from '@/sections/smartphones/Smartphones';
 import { products } from '@/data';
+import Wheel from '@/sections/wheel/Wheel';
 
 const jost = Jost({
   subsets: ['latin'],
@@ -28,6 +29,7 @@ export default function Home({ products }) {
         <Bestsellers products={products} />
         <MultipleBanner />
         <Smartphones products={products} />
+        <Wheel />
       </main>
     </>
   );

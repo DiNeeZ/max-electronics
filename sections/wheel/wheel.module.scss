@@ -1,0 +1,78 @@
+@import '../../styles/_mixins.scss';
+
+.wheel {
+  margin-bottom: 82px;
+  padding-top: 130px;
+  padding-bottom: 110px;
+  background-image: url('/images/wheel/wheel-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #c6c6c6;
+}
+
+.container {
+  @include container;
+  display: flex;
+}
+
+.slider {
+  flex: 1 0 70%;
+  overflow: hidden;
+}
+
+.content {
+  flex: 1 0 30%;
+}
+
+.title {
+  margin: 18px 0;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: -0.04em;
+  color: #1a1a1a;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.current {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  color: #1a1a1a;
+}
+
+.old {
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: line-through;
+  color: #787878;
+}
+
+.countdown {
+  margin-bottom: 40px;
+}
+
+.countdownTitle {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 17px;
+  line-height: 19px;
+  color: #1a1a1a;
+}
+
+.button {
+  padding: 15px 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+
+  color: #ffffff;
+  background-color: #1a1a1a;
+  border-radius: 26px;
+}

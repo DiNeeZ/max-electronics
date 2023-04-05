@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.unit {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.num {
+  font-weight: 700;
+  font-size: 22.422px;
+  line-height: 32px;
+
+  color: #383838;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+
+  color: #383838;
+}

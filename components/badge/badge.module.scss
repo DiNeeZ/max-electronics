@@ -1,0 +1,14 @@
+.badge {
+  margin: 0;
+  padding: 6px 16px;
+  border-radius: 15px;
+  background-color: #fed700;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #282828;
+
+  &.light {
+    background-color: #fff;
+  }
+}
