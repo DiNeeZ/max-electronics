@@ -527,3 +527,36 @@ export const wheel = [
   '/images/wheel/3.png',
   '/images/wheel/4.png'
 ];
+
+export const topCategories = [
+  {
+    id: 'URJXQ',
+    title: 'Desktop PCs & Laptops',
+    image: '/images/categories-preview/laptop.png'
+  },
+  {
+    id: 'KU1PP',
+    title: 'Home & Audio Enternteinment',
+    image: '/images/categories-preview/tv.png'
+  },
+  {
+    id: 'G6P5D',
+    title: 'Smartphone & Tables',
+    image: '/images/categories-preview/phone.png'
+  },
+  {
+    id: 'NAMDG',
+    title: 'Video Games & Consoles',
+    image: '/images/categories-preview/consoles.png'
+  },
+  {
+    id: 'XPNJW',
+    title: 'Gedgets & Accesories',
+    image: '/images/categories-preview/camera.png'
+  },
+  {
+    id: 'UAP6A',
+    title: 'Photo Cameras',
+    image: '/images/categories-preview/gadgets.png'
+  }
+];

@@ -9,6 +9,7 @@ import Smartphones from '@/sections/smartphones/Smartphones';
 import { products } from '@/data';
 import Wheel from '@/sections/wheel/Wheel';
 import LatestDeals from '@/sections/latest-deals/LatestDeals';
+import TopCategories from '@/sections/top-categories/TopCategories';
 
 const jost = Jost({
   subsets: ['latin'],
@@ -32,6 +33,7 @@ export default function Home({ products }) {
         <Smartphones products={products} />
         <Wheel />
         <LatestDeals products={products} />
+        <TopCategories />
       </main>
     </>
   );

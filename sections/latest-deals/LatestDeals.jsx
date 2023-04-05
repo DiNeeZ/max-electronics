@@ -12,7 +12,7 @@ const inter = Inter({
 
 const LatestDeals = ({ products }) => {
   return (
-    <section className={styles.LatestDeals}>
+    <section className={styles.latestDeals}>
       <div className={styles.container}>
         <div className={styles.header}>
           <h2 className={styles.title}>Latest Deals</h2>
