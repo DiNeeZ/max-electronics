@@ -328,7 +328,8 @@ export const products = [
       stars: 4,
       votes: 276
     },
-    meta: ['bestseller']
+    meta: ['bestseller'],
+    availability: { total: 150, sold: 39 }
   },
   {
     id: 'xn13e',
@@ -340,7 +341,8 @@ export const products = [
       stars: 5,
       votes: 683
     },
-    meta: ['bestseller']
+    meta: ['bestseller'],
+    availability: { total: 200, sold: 165 }
   },
   {
     id: 'X8EOR',
@@ -352,7 +354,8 @@ export const products = [
       stars: 5,
       votes: 65
     },
-    meta: ['bestseller']
+    meta: ['bestseller'],
+    availability: { total: 100, sold: 49 }
   },
   {
     id: '4p8ki',
@@ -364,7 +367,8 @@ export const products = [
       stars: 3,
       votes: 184
     },
-    meta: ['bestseller']
+    meta: ['bestseller'],
+    availability: { total: 300, sold: 220 }
   },
   {
     id: 'xGcUK',
@@ -376,7 +380,8 @@ export const products = [
       stars: 4,
       votes: 231
     },
-    meta: ['for home', 'bestseller']
+    meta: ['for home', 'bestseller'],
+    availability: { total: 150, sold: 19 }
   },
   {
     id: 'vX9FV',
@@ -388,7 +393,8 @@ export const products = [
       stars: 5,
       votes: 18
     },
-    meta: ['for home']
+    meta: ['for home'],
+    availability: { total: 500, sold: 344 }
   },
   {
     id: 'rLJZM',
@@ -400,7 +406,8 @@ export const products = [
       stars: 3,
       votes: 599
     },
-    meta: ['for home']
+    meta: ['for home'],
+    availability: { total: 800, sold: 559 }
   },
   {
     id: '6O4sj',
@@ -412,7 +419,8 @@ export const products = [
       stars: 5,
       votes: 90
     },
-    meta: ['for home']
+    meta: ['for home'],
+    availability: { total: 100, sold: 67 }
   },
   {
     id: 'glxYa',
@@ -424,7 +432,8 @@ export const products = [
       stars: 5,
       votes: 24
     },
-    meta: ['for home']
+    meta: ['for home'],
+    availability: { total: 180, sold: 88 }
   },
   {
     id: '7A3_K',
@@ -436,7 +445,8 @@ export const products = [
       stars: 5,
       votes: 118
     },
-    meta: ['for home']
+    meta: ['for home'],
+    availability: { total: 450, sold: 150 }
   },
   {
     id: 'BUODu',
@@ -448,7 +458,8 @@ export const products = [
       stars: 3,
       votes: 55
     },
-    meta: ['for home']
+    meta: ['for home'],
+    availability: { total: 400, sold: 20 }
   },
   {
     id: 'APEjh',
@@ -460,7 +471,8 @@ export const products = [
       stars: 5,
       votes: 76
     },
-    meta: ['for home']
+    meta: ['for home'],
+    availability: { total: 200, sold: 99 }
   },
   {
     id: 'QHBNi',
@@ -472,7 +484,8 @@ export const products = [
       stars: 5,
       votes: 200
     },
-    meta: ['for home']
+    meta: ['for home'],
+    availability: { total: 150, sold: 99 }
   }
 ];
 

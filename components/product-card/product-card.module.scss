@@ -1,11 +1,26 @@
 .product {
+  position: relative;
   flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 50px 25px 25px;
+
   border: 1px solid #f3f3f3;
   border-radius: 5px;
+}
+
+.wrapper {
+  padding: 50px 25px 25px;
+}
+
+.discountBage {
+  position: absolute;
+  top: 18px;
+  left: 22px;
+  padding: 4px 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  background-color: #ff541f;
+  border-radius: 4px;
 }
 
 .image {
@@ -55,4 +70,34 @@
 
     color: #7e7e7e;
   }
+}
+
+.sold {
+  padding: 25px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #242424;
+  border-top: 1px solid #f3f3f3;
+}
+
+.soldBar {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 12px;
+  margin-bottom: 5px;
+  background-color: #ededed;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.progress {
+  position: absolute;
+  display: block;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #fed700;
+  border-radius: 6px;
 }

@@ -13,13 +13,28 @@
   justify-content: center;
   border-radius: 50%;
   background-color: #fff;
+
+  &.small {
+    width: 58px;
+    height: 58px;
+    background-color: #f7f7f7;
+
+    .num {
+      font-size: 17px;
+      line-height: 20px;
+    }
+
+    .text {
+      font-size: 10px;
+      line-height: 12px;
+    }
+  }
 }
 
 .num {
   font-weight: 700;
   font-size: 22.422px;
   line-height: 32px;
-
   color: #383838;
 }
 

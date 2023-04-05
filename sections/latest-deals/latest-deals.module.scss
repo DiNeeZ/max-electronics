@@ -1,0 +1,53 @@
+@import '../../styles/mixins';
+
+.latestDeals {
+  margin-bottom: 80px;
+}
+
+.container {
+  @include container;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 43px;
+  color: #333e48;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.button {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #006fdc;
+  transition: color 0.15s ease-in-out;
+
+  @media (hover: hover) {
+    &:hover {
+      color: darken(#006fdc, 20%);
+    }
+  }
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  flex: 1 0 250px;
+}
